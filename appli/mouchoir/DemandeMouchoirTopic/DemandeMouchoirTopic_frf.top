@@ -1,0 +1,20 @@
+topic: ~DemandeMouchoirTopic()
+language: frf
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+
+u:(e:onStart) ^mode("disabled") J'ai besoin d'un mouchoir, s'il vous plaît 
+
+u:(que veux-tu) un mouchoir, s'il vous plaît
+
+u:(tiens) $onStopped=1
+
+
