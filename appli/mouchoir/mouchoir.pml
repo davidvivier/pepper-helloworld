@@ -10,6 +10,7 @@
     </Dialogs>
     <Resources>
         <File name="index" src="html/index.html" />
+        <File name="script" src="html/js/script.js" />
     </Resources>
     <Topics>
         <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
