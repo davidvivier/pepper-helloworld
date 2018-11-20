@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<package uuid="mouchoir-1ef4e2" version="0.0.0">
+<package version="0.0.0" uuid="mouchoir">
  <names>
-  <name lang="en_US">Untitled</name>
+  <name lang="en_US">mouchoir</name>
  </names>
  <supportedLanguages>
   <language>fr_FR</language>

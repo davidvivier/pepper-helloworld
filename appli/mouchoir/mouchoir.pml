@@ -8,7 +8,9 @@
         <Dialog name="ExampleDialog" src="behavior_1/ExampleDialog/ExampleDialog.dlg" />
         <Dialog name="DemandeMouchoirTopic" src="DemandeMouchoirTopic/DemandeMouchoirTopic.dlg" />
     </Dialogs>
-    <Resources />
+    <Resources>
+        <File name="index" src="html/index.html" />
+    </Resources>
     <Topics>
         <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
         <Topic name="ExampleDialog_frf" src="behavior_1/ExampleDialog/ExampleDialog_frf.top" topicName="ExampleDialog" language="fr_FR" />
