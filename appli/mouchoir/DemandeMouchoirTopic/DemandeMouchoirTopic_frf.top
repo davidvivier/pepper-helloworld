@@ -1,4 +1,4 @@
-topic: ~DemandeMouchoirTopic()
+    topic: ~DemandeMouchoirTopic()
 language: frf
 
 # Defining extra concepts out of words or group of words
@@ -11,9 +11,9 @@ language: frf
 #u:(~hello) ~hello
 
 
-u:(e:onStart) ^mode("disabled") J'ai besoin d'un mouchoir, s'il vous plaît 
+u:(e:onStart) ^mode("disabled")  ^rand[ "J'ai besoin d'un mouchoir, s'il vous plaît" "Pouvez-vous-me donner un mouchoir ?" ]
 
-u:(que veux-tu) un mouchoir, s'il vous plaît
+u:("que veux-tu ?") ^mode("disabled") "un mouchoir, s'il vous plaît"
 
 u:(tiens) $onStopped=1
 
