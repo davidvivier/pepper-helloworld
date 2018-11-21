@@ -1,0 +1,19 @@
+topic: ~RobotiqueTopic()
+language: frf
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+
+u:( "Quelle est la première loi de la robotique ?") un robot ne peut porter atteinte à un être humain, ni, en restant passif, permettre qu'un être humain soit exposé au danger.
+
+u:( "Quelle est la seconde loi de la robotique ?" ) un robot doit obéir aux ordres qui lui sont donnés par un être humain, sauf si de tels ordres entrent en conflit avec la première loi.
+
+u:( "Quelle est la troisième loi de la robotique ?" ) un robot doit protéger son existence tant que cette protection n'entre pas en conflit avec la première ou la deuxième loi.
+

@@ -15,6 +15,6 @@ u:(e:onStart) ^mode("disabled")  ^rand[ "J'ai besoin d'un mouchoir, s'il vous pl
 
 u:("que veux-tu ?") ^mode("disabled") "un mouchoir, s'il vous plaît"
 
-u:(tiens) $onStopped=1
+u:( [tiens voilà] ) $onStopped=1
 
 

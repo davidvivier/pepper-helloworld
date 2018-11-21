@@ -7,6 +7,7 @@
     <Dialogs>
         <Dialog name="ExampleDialog" src="behavior_1/ExampleDialog/ExampleDialog.dlg" />
         <Dialog name="DemandeMouchoirTopic" src="DemandeMouchoirTopic/DemandeMouchoirTopic.dlg" />
+        <Dialog name="RobotiqueTopic" src="RobotiqueTopic/RobotiqueTopic.dlg" />
     </Dialogs>
     <Resources>
         <File name="index" src="html/index.html" />
@@ -16,6 +17,7 @@
         <Topic name="ExampleDialog_enu" src="behavior_1/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
         <Topic name="ExampleDialog_frf" src="behavior_1/ExampleDialog/ExampleDialog_frf.top" topicName="ExampleDialog" language="fr_FR" />
         <Topic name="DemandeMouchoirTopic_frf" src="DemandeMouchoirTopic/DemandeMouchoirTopic_frf.top" topicName="DemandeMouchoirTopic" language="fr_FR" />
+        <Topic name="RobotiqueTopic_frf" src="RobotiqueTopic/RobotiqueTopic_frf.top" topicName="RobotiqueTopic" language="fr_FR" />
     </Topics>
     <IgnoredPaths />
     <Translations auto-fill="fr_FR">

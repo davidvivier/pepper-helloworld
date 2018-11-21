@@ -2,6 +2,14 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="fr_FR">
     <context>
+        <name>behavior_1/behavior.xar:/Bouhou</name>
+        <message>
+            <source>bouhou</source>
+            <comment>Text</comment>
+            <translation type="obsolete">bouhou</translation>
+        </message>
+    </context>
+    <context>
         <name>behavior_1/behavior.xar:/Demander mouchoir</name>
         <message>
             <source>J'ai besoin d'un mouchoir, s'il vous plaît </source>
