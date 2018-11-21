@@ -4,10 +4,9 @@
     <context>
         <name>behavior_1/behavior.xar:/Demander mouchoir</name>
         <message>
-            <location filename="behavior_1/behavior.xar" line="0"/>
             <source>J'ai besoin d'un mouchoir, s'il vous plaît </source>
             <comment>Text</comment>
-            <translation type="unfinished">J'ai besoin d'un mouchoir, s'il vous plaît </translation>
+            <translation type="obsolete">J'ai besoin d'un mouchoir, s'il vous plaît </translation>
         </message>
     </context>
     <context>
